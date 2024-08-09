@@ -4,6 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
     <title></title>
@@ -112,7 +113,7 @@ Recogida en Tienda: Si prefieres recoger tu pedido en persona, puedes selecciona
 
 
             <h1 class="text-center h1productos">Productos Disponibles</h1>
-            <div class="container text-center">
+            <div class="container text-center center-vertical">
               <div class="row align-items-start">
                 <div class="col">
                   <div class="card" style="width: 18rem;">
