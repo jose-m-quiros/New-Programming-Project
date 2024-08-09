@@ -1,0 +1,72 @@
+﻿.header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.2em;
+    margin-bottom: 1.5em;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 15%;
+}
+
+.row {
+    margin-top: 1em;
+}
+
+/* Estilo base para los enlaces */
+.link {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+    color: #fff; /* Texto blanco */
+    background-color: #007BFF; /* Azul */
+    padding: 12px 24px;
+    margin: 0.5em;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+    /* Estilo del enlace activo o en foco */
+    .link:active,
+    .link:focus {
+        outline: none;
+        background-color: #004494; /* Azul aún más oscuro */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        transform: translateY(0);
+    }
+
+/* Estilo específico para cada enlace */
+.registrar {
+    background-color: #28a745; /* Verde */
+}
+
+.modificar {
+    background-color: #ffc107; /* Amarillo */
+}
+
+.eliminar {
+    background-color: #dc3545; /* Rojo */
+}
+
+.iniciar-sesion {
+    background-color: #17a2b8; /* Cian */
+}
+
+/* Espaciado entre los enlaces */
+.link + .link {
+    margin-top: 0.75em;
+}
+
+/* Centrar la fila y los enlaces */
+.container-center {
+    display: flex;
+    justify-content: center;
+}
+
+.row-center {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Ajusta el espacio entre los enlaces */
+}
