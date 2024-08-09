@@ -205,6 +205,7 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\NewProgrammingProject - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\NewProgrammingProject - Web Deploy1.pubxml" />
     <None Include="Properties\PublishProfiles\ProgrammingProject - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
