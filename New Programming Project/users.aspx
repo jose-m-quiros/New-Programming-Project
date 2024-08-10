@@ -33,7 +33,7 @@
     <asp:HyperLink ID="hplConsultar" runat="server" NavigateUrl="~/verify user.aspx" CssClass="link consultar">Ver Datos De Usuarios</asp:HyperLink>
 </div>
                 <div class="col">
-                  <asp:HyperLink ID="hplModificar" runat="server" NavigateUrl="~/modify user.aspx" CssClass="link modificar">Modificar Datos</asp:HyperLink>
+                  <asp:HyperLink ID="hplModificar" runat="server" NavigateUrl="~/modifysuper.aspx" CssClass="link modificar">Modificar Datos</asp:HyperLink>
                 </div>
                  
                   <div class="col">

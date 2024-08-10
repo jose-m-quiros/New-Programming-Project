@@ -1,15 +1,15 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="modify user.aspx.cs" Inherits="New_Programming_Project.modify_user" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="modifysuper.aspx.cs" Inherits="New_Programming_Project.modifysuper" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/modify users.css" />
+<link rel="stylesheet" href="styles/modify users.css" />
     <title></title>
 </head>
 <body>
-        <form id="form1" runat="server">
+            <form id="form1" runat="server">
         <div>
             <h2>Formulario para Modificar Usuario</h2>
             <asp:Label ID="lblCedula" runat="server" Text="Cédula: "></asp:Label>
@@ -29,7 +29,7 @@
             </asp:Panel>
             
             <asp:Label ID="lblMensaje" runat="server" Text=""></asp:Label><br />
-            <asp:HyperLink ID="hplRegresar" runat="server" NavigateUrl="~/user index.aspx">Regresar</asp:HyperLink>
+            <asp:HyperLink ID="hplRegresar" runat="server" NavigateUrl="~/users.aspx">Regresar</asp:HyperLink>
         </div>
     </form>
 </body>

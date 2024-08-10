@@ -88,6 +88,7 @@
     <Content Include="login user.aspx" />
     <Content Include="logout.aspx" />
     <Content Include="modify user.aspx" />
+    <Content Include="modifysuper.aspx" />
     <Content Include="payment methods.aspx" />
     <Content Include="services.aspx" />
     <Content Include="styles\account.css" />
@@ -164,6 +165,13 @@
     </Compile>
     <Compile Include="modify user.aspx.designer.cs">
       <DependentUpon>modify user.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modifysuper.aspx.cs">
+      <DependentUpon>modifysuper.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modifysuper.aspx.designer.cs">
+      <DependentUpon>modifysuper.aspx</DependentUpon>
     </Compile>
     <Compile Include="payment methods.aspx.cs">
       <DependentUpon>payment methods.aspx</DependentUpon>

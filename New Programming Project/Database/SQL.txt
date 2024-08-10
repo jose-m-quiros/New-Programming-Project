@@ -1,0 +1,27 @@
+/*Tercero*/
+CREATE TABLE [dbo].[Contacts](
+    [Id] INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    [Name] VARCHAR(100) NULL,
+    [Email] VARCHAR(100) NULL,
+    [Subject] VARCHAR(100) NULL,
+    [Message] VARCHAR(MAX) NULL
+)
+
+CREATE TABLE [dbo].[Usuario](
+    [cedula] INT NOT NULL PRIMARY KEY,
+    [nombre] VARCHAR(50) NOT NULL,
+    [telefono] VARCHAR(50) NULL,
+    [correo] VARCHAR(50) NULL,
+    [contrasena] NVARCHAR(50) NULL,
+    [LastLogin] DATETIME NULL
+)
+
+/*Cuarto*/
+CREATE PROCEDURE [dbo].[GetUserDetails]
+    @UserName NVARCHAR(50)
+AS
+BEGIN
+    SELECT nombre, correo, contrasena
+    FROM Usuario
+    WHERE nombre = @UserName;
+END;
